@@ -1,18 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
 *{
     margin: 0;
     padding: 0;
 }
-
-
 header {
     width: 100%;
     height: 100px;
     background-color:rgb(6, 6, 29);
     color: white;
-
-   
-   
-
 }
 
 .header-logo {
@@ -23,7 +19,7 @@ header {
     justify-content: space-between;
     padding: 10px 60px;
     border: 2px solid rgb(223, 211, 211);
-     
+   
 }
 
 .box:hover {
@@ -38,7 +34,6 @@ header {
     flex-basis: 25px;
     flex-grow: 1;
   }
-  
 
 .logo{
  font-weight: 500px;
@@ -120,9 +115,10 @@ header {
 
 
 main {
+    margin: 0;
     font-size: 20px;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-color: #eeeeee;
 }
 .main-h2 {
@@ -131,6 +127,54 @@ main {
     text-align: center;
     background-color: red;
     margin: 50px 10px;
+}
+
+
+.main-container {
+    height: 70vh;
+  margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.amz {
+    background-color: cadetblue;
+    width: 600px;
+    height: 200px;
+    border: 2px dashed;
+  
+}
+.amz:hover {
+   background-color: rgb(107, 107, 156);
+   font-size: xx-large;
+}
+
+.main-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    
+}
+.main-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.main-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 
 footer {
